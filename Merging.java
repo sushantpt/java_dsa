@@ -34,7 +34,8 @@ public class MergingTwoArray {
 
 		merging(firstArray, secondArray, n1, n2, sortedArray);
 		for (int i = 0; i < (n1 + n2); i++) {
-			System.out.print(sortedArray[i] + " ");
+			System.out.println("Sorted Array[s]: ");
+			System.out.println(sortedArray[i] + " ");
 		}
 	}
 }
