@@ -43,4 +43,3 @@ public class EventAvailableCapacity {
 		return 0;
 	}
 }
-
