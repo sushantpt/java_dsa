@@ -2,7 +2,14 @@
 /*
  * We have a event. 
  * check available tickets of the event
+ *
+ * Queue --> A collection designed for holding elements prior to processing.Besides basic Collection operations, queues provideadditional insertion,
+ * extraction, and inspection operations.Each of these methods exists in two forms: one throws an exceptionif the operation fails,
+ * the other returns a special value (either null or false, depending on the operation). Thelatter form of the insert operation is designed 
+ * specifically foruse with capacity-restricted Queue implementations; in mostimplementations, insert operations cannot fail. 
+ *
  */
+
 package queue;
 
 import java.util.Queue;
