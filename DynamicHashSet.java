@@ -21,7 +21,7 @@ public class DynamicHashSet {
 
 	// method to see if the value is present in list or not
 	public boolean contains(String value) {
-		int index = hashCode(value) % values.length;
+		int index = hashCode(value) % values.length;		// find the index value
 		return value.equals(values[index]);			// if value is in values, returns true else false
 	}
 
