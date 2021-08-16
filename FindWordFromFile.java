@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class FindWordFromFile {
 
-	HashMap<String, Integer>wordCount = new HashMap<String, Integer>();
+	HashMap<String, Integer>wordCount = new HashMap<String, Integer>();  	// wordCount hashMap of Key being string and value being integer
 
 	Scanner scanner = new Scanner(System.in);
-	String input = null; 
+	String input = null; 			// var to store user input
 
 	while(true) {
 		System.out.print("Enter a string: ");
@@ -16,11 +16,11 @@ public class FindWordFromFile {
 
 		if(input.equals("q")) break;
 
-		if(wordCount.containsKey(input)) {
+		if(wordCount.containsKey(input)) { 		// if input is in wordCount then ..
 			int count = wordCount.get(input);  // get the total occurence of word that is in input
 			wordCount.put(input, count + 1);
 		}
-		else {
+		else {		// if input is NOT in wordCount then ..
 			wordCount.put(input, 1);
 		}
 	}
