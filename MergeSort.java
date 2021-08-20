@@ -44,5 +44,3 @@ public class MergeSort {
 		ms.mergeSorting(unSorted);
 	}
 }
-
-
