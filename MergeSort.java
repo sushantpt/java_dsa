@@ -4,7 +4,7 @@ public class MergeSort {
 	private int[] unSorted;
 	
 	// method to merge
-	public void mergeSort(int lowerIndex, int higherIndex) {
+	public void mergeSort(int lowerIndex, int higherIndex) {		
 		if(lowerIndex < higherIndex) { // if there are more than two elements..
 			int midPoint = (lowerIndex + higherIndex) / 2;
 			mergeSort(lowerIndex, midPoint); // left side arr
@@ -44,3 +44,5 @@ public class MergeSort {
 		ms.mergeSorting(unSorted);
 	}
 }
+
+
