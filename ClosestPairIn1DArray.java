@@ -37,25 +37,3 @@ public class ClosestPairIn1DArray {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
